@@ -1,0 +1,83 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "bluetooth mesh",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "LocationControlIntent",
+                    "slots": [
+                        {
+                            "name": "status",
+                            "type": "GPIO_CONTROL"
+                        },
+                        {
+                            "name": "location",
+                            "type": "LOCATION"
+                        }
+                    ],
+                    "samples": [
+                        "LocationControlIntent to change the {location} to {status}",
+                        "LocationControlIntent to turn {location} {status}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "GPIO_CONTROL",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "off"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "on"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "LOCATION",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "geyser"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "lights"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fan"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
