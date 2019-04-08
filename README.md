@@ -5,8 +5,8 @@ The binaries are provided in .bin format and can be flashed into the SoC/micro-c
 
 - Procedure 1 (.bin only) -
 
- 1 - Plug the Eval Board to the host PC using a micro-USB cable. The board will be recognized as an external memory device called "BlUENRG-1" or "BLUENRG-2".
- 2 - Drag and drop or copy the binary file into the "BlUENRG-1(IDB007VX)/BLUENRG-2(IDB008VX)" device you see in Computer.
+ 1 - Plug the Eval Board to the host PC using a micro-USB cable. The board will be recognized as an external memory device called       "BLUENRG-2".
+ 2 - Drag and drop or copy the binary file into the "BLUENRG-2(IDB008VX)" device you see in Computer.
  3 - Wait until flashing is complete.
 
 - Procedure 2 (.bin) -
