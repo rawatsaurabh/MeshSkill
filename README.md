@@ -9,7 +9,7 @@ The binaries are provided in .bin format and can be flashed into the SoC/micro-c
  2 - Drag and drop or copy the binary file into the "BlUENRG-1(IDB007VX)/BLUENRG-2(IDB008VX)" device you see in Computer.
  3 - Wait until flashing is complete.
 
-- Procedure 2 (.hex and .bin) -
+- Procedure 2 (.bin) -
 
  1 - Install BlueNRG-1 ST-Link Utility http://www.st.com/en/embedded-software/stsw-bnrg1stlink.html
  2 - Plug the Eval Board to the host PC using a micro USB cable.
